@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    background-color: bisque;
+}
+
+nav{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li{
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+nav a:hover{
+    color: coral;
+}
+
+
+
+nav img{
+    display: flex;
+    max-height: 50px;
+    width: auto;
+    
+}
+
+.menuButton{
+    display: flex;
+    /* background-color: blueviolet; */
+    /* align-items: center; */
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+ 
+}

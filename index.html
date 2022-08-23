@@ -3,27 +3,31 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Mi pagina de prueba</title>
+    <title>Mi pagina de prueba 2</title>
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 
 <body>
     <div>
-        <nav class="menu">
+        <nav class="menu container">
             <img src="./assets/img/UCEMA_Logo_Caja (1).png" alt="" width="200px">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+            <div class="menuButton">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
-    <section id="main">
+    <section id="main" class="container">
         <div>
             <h1>Titulo PPl</h1>
             <video src="/assets/video/vid_1x1_04.mp4" alt="Vieo01" autoplay muted loop width="200px" type="video/mp4">
                 Tu navegador no admite el elemento <code>video</code>
             </video>
-            <p>
+            <p class="leter">
                 Lorem ipsum dolor sit<br> amet consectetur adipisicing elit. Quis consectetur odio illum nisi laboriosam
                 necessitatibus odit est, tempora, sint enim esse reprehenderit dignissimos repellendus rerum facilis
                 adipisci placeat? Harum, labore?
@@ -32,13 +36,52 @@
             <button id="btnPpl">
                 Click
             </button>
-
-
+        </div>
+    </section>
+    <section id="cardsSection">
+        <div class="">
+            <div class="container">
+                <div class="card">card 1</div>
+                <div class="card">card 2</div>
+                <div class="card">card 3</div>
+            </div>
+            <div class="container">
+                <div class="card">card 4</div>
+                <div class="card">card 5</div>
+                <div class="card">card 5</div>
+            </div>
         </div>
     </section>
     <footer>
-        Soy un footer
+        <div class="fotterCol">
+            Soy un footer
+        </div>
+        <div class="fotterCol">
+            col 1
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+        <div class="fotterCol">
+            links
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="fotterCol">
+            contact
+            <div>
+                <button type="button">
+                    <a href="https://www.google.com/" target="_blank">
+                        Book Now
+                    </a>
+                </button>
+            </div>
+        </div>
     </footer>
+
+
 </body>
 
 </html>
