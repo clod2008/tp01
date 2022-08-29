@@ -1,0 +1,17 @@
+/* https: //getbootstrap.com/docs/5.1/customize/css-variables/ */
+:root {
+    --bs-primary: rgb(28, 205, 28);
+    --primary-darck: rgb(6, 111, 6);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary-darck);
+    border-color: var(--primary-darck);
+}
